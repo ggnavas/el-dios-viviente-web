@@ -1,11 +1,11 @@
-import { useState, createContext } from 'react'
-import NavBar from './components/navBar'
+import { useState, createContext } from 'react';
+import NavBar from './components/NavBar';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
-import Home from './pages/home';
-import About from './pages/about';
-import Donate from './pages/donate';
-import Events from './pages/events';
+import Home from './pages/Home';
+import About from './pages/About';
+import Donate from './pages/Donate';
+import Events from './pages/Events';
 import Ministries from './pages/Ministries';
 
 

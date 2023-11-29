@@ -1,6 +1,3 @@
-import { useEffect } from "react";
-
-
 const Carousel = () => {
 
     return (
